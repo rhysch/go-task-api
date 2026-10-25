@@ -28,7 +28,7 @@ func newHandler() http.Handler {
 		})
 	})
 
-	return
+	return mux
 }
 
 func main() {
